@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputVerificationCodeView">
+        <attr name="textCodeColor" format="color" />
+        <attr name="textCodeSize" format="dimension" />
+        <attr name="lineCodeColor" format="color" />
+        <attr name="unlineCodeColor" format="color" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="linePadding" format="dimension" />
+        <attr name="textCodeLength" format="integer" />
+        <attr name="autoExecution">
+            <enum name="none" value="0" />
+            <enum name="auto" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
